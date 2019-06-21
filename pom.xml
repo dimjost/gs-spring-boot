@@ -12,6 +12,12 @@
         <artifactId>spring-boot-starter-parent</artifactId>
         <version>2.1.4.RELEASE</version>
     </parent>
+	
+	<scm>
+	    <connection>scm:git:${gitURL}</connection>
+	    <developerConnection>scm:git:${gitURL}</developerConnection>
+	    <tag>HEAD</tag>
+	</scm>
 
     <dependencies>
         <dependency>
